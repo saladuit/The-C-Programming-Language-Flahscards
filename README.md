@@ -6,7 +6,10 @@ This is an open source project to make the definitive flashcard standard of the 
   - Cards should be made in their approiate deck. e.g. a flashcard with keywords as theme could be placed in Appendix A - Reference Manual Deck -> 02 Lexical Tokens Deck-> 04 Keywords Deck
   - Have fun learning the cards and contributing to the knowledge of others
   - More TBA
+
+# Deck Structure
 ![Deck Structure](https://github.com/saladuit/The-C-Programming-Language-Flahscards/blob/4c5ce6a0c36b704136a746f5a0843d74aff89c36/media/deck_structure.png "deck_structure")
+
 ##### Add-on [CrowdAnki](https://desktop.github.com/)
   - Check his project page to find the CUI intructions
  
