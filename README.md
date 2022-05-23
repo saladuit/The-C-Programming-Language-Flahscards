@@ -7,12 +7,13 @@ This is an open source project to make the definitive flashcard standard of the 
   - Have fun learning the cards and contributing to the knowledge of others
   - More TBA
 
-# Deck Structure
+## Deck Structure
 ![Deck Structure](https://github.com/saladuit/The-C-Programming-Language-Flahscards/blob/4c5ce6a0c36b704136a746f5a0843d74aff89c36/media/deck_structure.png "deck_structure")
 
-##### Add-on [CrowdAnki](https://desktop.github.com/)
+### Add-on [CrowdAnki](https://desktop.github.com/)
   - Check his project page to find the GUI intructions - Github Desktop
- 
+
+### Required Add-on [Image Occlusion Enhanced](https://ankiweb.net/shared/info/1374772155)
 ### CLI workflow
 
 #### To start working on the deck you need to:
