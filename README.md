@@ -7,13 +7,46 @@ The tips for contributing to this project:
   - Have fun learning the cards and contributing to the knowledge of others
   - More TBA
   
-##### Instructions taken from [CrowdAnki](https://desktop.github.com/)
-  - Check his project page to find the CLI intructions
+##### Add-on [CrowdAnki](https://desktop.github.com/)
+  - Check his project page to find the CUI intructions
  
+### CLI workflow
+#### Initiating collaboration
+4. Install git on your computer.
+5. Go to the directory that resulted from export.
+6. Initialize repository with following commands:
+   
+    ```
+    git init
+    git remote add origin git@github.com:<username>/<repository>.git
+    ```
+
+    Where <username> is your GitHub username (in my case Stvad) and <repository> is the name of the repository (DeckX). So in our case the command will look like:
+
+    ```
+    git remote add origin git@github.com:Stvad/DeckX.git
+    ```
+7. Add the content of your directory to the repository:
+
+    ```
+    git add *
+    git commit -m "initial export"
+    ```
+8. Upload changes you've made to the GitHub:
+
+    ```
+    git push origin master
+    ```
+
 #### To start working on the deck you need to:
-1. Install [GitHub Desktop](https://desktop.github.com/) for their computer.
-2. You can do that by going to the repository page on GitHub and pressing "Clone or download -> Open in Desktop".
-	![Image](misc/image/7.png?raw=true)
+
+1. Install git on your machine.
+2. Clone the repository:
+
+    ```
+    git clone https://github.com/Stvad/DeckX.git
+    ```
+
 3. [Import the deck](#import).
 
 If you **just wants to use the deck** you can [import decks directly from there](#import-from-git).
@@ -22,12 +55,24 @@ If you **just wants to use the deck** you can [import decks directly from there]
 
 When you want to upload changes you've made to the GitHub, you need to:
 
-1. Get the latest changes from the GitHub, by pressing "Sync" button in the top right corner.
-	![Image](misc/image/8.png?raw=true)
-2. [Import the deck](#import) to combine changes you've made with the changes other people have made.
+1. Get the latest changes from the GitHub:
+   
+    ```
+    git pull
+    ```
+2. [Import the deck](#import) to combine changes you've made the project.
 3. Export the deck the same directory where your repository is located so that export will overwrite media directory and JSON file in the repository. (As an alternative you can export it elsewhere and copy JSON file and media directory yourself to overwrite the ones that are in repository directory.)
-4. Add the changes you've made to the repository, by selecting all of the files, adding some comment in comment field and pressing "Commit to master"
-	![Image](misc/image/4.png?raw=true)
-5. Upload changes you've made to the GitHub, by pressing "Sync" button in the top right corner.
+4. Add the changes to the repository:
 
-If you just want to **get latest changes from other people** - you need to perform only steps 1 and 2.
+    ```
+    git add *
+    git commit -m "new updates"
+    ```
+5. Upload changes you've made to the GitHub:
+
+    ```
+    git push origin master
+    ```
+
+If you just want to **get latest changes** - you need to perform only steps 1 and 2.
+
