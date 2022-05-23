@@ -1,7 +1,7 @@
-# The C Programming Language Open Source Anki Deck
-Welcome!
-This is an attempt to make a definitive flashcard version of the book: The C Programming Language
-The tips for contributing to this project:
+# The C Programming Language Fashcards
+
+## About
+Welcome! This is an open source project to make the definitive flashcard standard of the book: The C Programming Language. To achieve this I need your help to make it as simple, educational and accurate as possible. Tips for contributing to this project:
   - try to make the cards as simple as possible so that it is easy to remember e.g. by using cloze cards or by using the Immage Occlusion addon
   - Cards should be made in their approiate deck. e.g. a flashcard with keywords as theme could be placed in Appendix A - Reference Manual Deck -> 02 Lexical Tokens Deck-> 04 Keywords Deck
   - Have fun learning the cards and contributing to the knowledge of others
@@ -50,3 +50,5 @@ When you want to upload changes you've made to the GitHub, you need to:
 
 If you just want to **get latest changes** - you need to perform only steps 1 and 2.
 
+## Contact
+safonh@student.codam.nl
