@@ -1,4 +1,4 @@
-# The C Programming Language 
+# The C Programming Language Open Source Anki Deck
 Welcome!
 This is an attempt to make a definitive flashcard version of the book: The C Programming Language
 The tips for contributing to this project:
