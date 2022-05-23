@@ -54,4 +54,4 @@ When you want to upload changes you've made to the GitHub, you need to:
 If you just want to **get latest changes** - you need to perform only steps 1 and 2.
 
 ## Contact
-safonh@student.codam.nl
+safoh@student.codam.nl
