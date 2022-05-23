@@ -11,32 +11,6 @@ The tips for contributing to this project:
   - Check his project page to find the CUI intructions
  
 ### CLI workflow
-#### Initiating collaboration
-4. Install git on your computer.
-5. Go to the directory that resulted from export.
-6. Initialize repository with following commands:
-   
-    ```
-    git init
-    git remote add origin git@github.com:<username>/<repository>.git
-    ```
-
-    Where <username> is your GitHub username (in my case Stvad) and <repository> is the name of the repository (DeckX). So in our case the command will look like:
-
-    ```
-    git remote add origin git@github.com:Stvad/DeckX.git
-    ```
-7. Add the content of your directory to the repository:
-
-    ```
-    git add *
-    git commit -m "initial export"
-    ```
-8. Upload changes you've made to the GitHub:
-
-    ```
-    git push origin master
-    ```
 
 #### To start working on the deck you need to:
 
