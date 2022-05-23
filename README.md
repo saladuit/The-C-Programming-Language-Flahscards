@@ -1,7 +1,7 @@
 # The C Programming Language Fashcards
 
-## About
-Welcome! This is an open source project to make the definitive flashcard standard of the book: The C Programming Language. To achieve this I need your help to make it as simple, educational and accurate as possible. Tips for contributing to this project:
+## Welcome!
+This is an open source project to make the definitive flashcard standard of the book: The C Programming Language. To achieve this I need your help to make it as simple, educational and accurate as possible. Tips for contributing to this project:
   - try to make the cards as simple as possible so that it is easy to remember e.g. by using cloze cards or by using the Immage Occlusion addon
   - Cards should be made in their approiate deck. e.g. a flashcard with keywords as theme could be placed in Appendix A - Reference Manual Deck -> 02 Lexical Tokens Deck-> 04 Keywords Deck
   - Have fun learning the cards and contributing to the knowledge of others
