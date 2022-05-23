@@ -1,0 +1,1926 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c677-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "01 Introduction",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What does ANSI stand for?",
+                                "American National Standard for Information"
+                            ],
+                            "guid": "QV8Tp#g(eD",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "When was the C language submitted to ANSI?",
+                                "31 October 1988"
+                            ],
+                            "guid": "y1wE&VME5g",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is the original name of ANSI C?",
+                                "Programming Language C, X3.159-1989"
+                            ],
+                            "guid": "tM#$Woc*Wo",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is the abbreviation of Programming Language C, X3.159-1989?",
+                                "C89"
+                            ],
+                            "guid": "D[Zgd8!?}o",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "How does the manual, The C programming language, differ form the ANCI C/C89?<br><ol><li>{{c8::The manual}} is&nbsp;{{c1::an interpretation of the proposed standard}}</li><li>{{c7::The details}} are {{c4::organized differently}}</li><li>{{c6::Some productions}} are&nbsp;{{c2::renamed}}<br></li><li>{{c5::Definitions of the lexical tokens or the preprocessor}} are {{c3::not formalized}} in this manual</li></ol>"
+                            ],
+                            "guid": "KR5_^?v`0+",
+                            "note_model_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "5d26c69a-dac2-11ec-a654-15eef9c747ff",
+                            "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "01 Tokens",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the program reduced to after preprocessing?",
+                                        "A sequence of tokens"
+                                    ],
+                                    "guid": "xw%(HFvTV6",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What makes up the next token after the input stream has been spearated into tokens up to a given character?",
+                                        "The longest string of characters that could constitute a a token"
+                                    ],
+                                    "guid": "g1eKB=f_LG",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "There are six classes of tokens: {{c1::identifiers}}, {{c2::keywords}}, {{c3::constants}}, {{c4::string literals}}, {{c5::operators}}, and\n<br>{{c6::other separators}}."
+                                    ],
+                                    "guid": "hzi$m8F5Gk",
+                                    "note_model_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The following parts of a program are ignored during preprossessing: {{c1::Blanks}}, {{c2::horizontal and vertical tabs}}, {{c3::newlines}}, {{c4::formfeeds}} and {{c5::comments}} (collectively, ``{{c6::white space}}'')."
+                                    ],
+                                    "guid": "rJS-RH]$K*",
+                                    "note_model_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "5d26c6aa-dac2-11ec-a654-15eef9c747ff",
+                            "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "02 Comments",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Wich character opens a comment?",
+                                        "/*"
+                                    ],
+                                    "guid": "s>)W(KOC/M",
+                                    "note_model_uuid": "5d26c6ae-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Which character closes a comment?",
+                                        "*/"
+                                    ],
+                                    "guid": "Cf%p?jP_{u",
+                                    "note_model_uuid": "5d26c6ae-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Comments {{c1::do not nest}}, and {{c2::they do not occur within a string or character literals}}."
+                                    ],
+                                    "guid": "p0VVyG;u<_",
+                                    "note_model_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "5d26c6b7-dac2-11ec-a654-15eef9c747ff",
+                            "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "03 Identifiers",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is an identifier",
+                                        "An identifier is a sequence of letters and digits"
+                                    ],
+                                    "guid": "qn@UBTgk@2",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Which two types of identifiers exist?",
+                                        "Internal and external identifiers"
+                                    ],
+                                    "guid": "sJ74|MCdwO",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "An identifier is {{c1::a sequence of letters and digits}}. The first character must be {{c2::a letter; the\n<br>underscore _ counts as a letter}}. Upper and lower case letters are {{c3::different}}."
+                                    ],
+                                    "guid": "Hc<CdsLu-B",
+                                    "note_model_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Identifiers with external linkage are {{c1::more restricted}}: implementations {{c2::may make as few as the\n<br>first six characters significant}}, and {{c3::may ignore case distinctions}}."
+                                    ],
+                                    "guid": "u+5j5w}1=2",
+                                    "note_model_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "5d26c6c7-dac2-11ec-a654-15eef9c747ff",
+                            "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "04 Keywords",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "give a local variable a local lifetime",
+                                        "auto"
+                                    ],
+                                    "guid": "h>Yc`>$yW#",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Exit out of a compound statement",
+                                        "break"
+                                    ],
+                                    "guid": "lyPtI*c&@i",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "a branch in a switch statement",
+                                        "case"
+                                    ],
+                                    "guid": "Ca0mIZ!xou",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Character data type",
+                                        "char"
+                                    ],
+                                    "guid": "Do0YY=v*cn",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Make a variable unmodifiable",
+                                        "const"
+                                    ],
+                                    "guid": "PU&MCURk`3",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "continue to the top of a loop",
+                                        "continue"
+                                    ],
+                                    "guid": "pW(7dds;Nu",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Default branch in a switch-statement",
+                                        "default"
+                                    ],
+                                    "guid": "fdZTQ?^Z+4",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "start a do-while loop",
+                                        "do"
+                                    ],
+                                    "guid": "G:oBt]}Xd|",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "a double floating-point data type.",
+                                        "double"
+                                    ],
+                                    "guid": "Bv*n$z;x(9",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "an else brance of an if-statement",
+                                        "else"
+                                    ],
+                                    "guid": "B4kp;p(~J:",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "define a set of int constants",
+                                        "enum"
+                                    ],
+                                    "guid": "kxX:&^Pv1u",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "declare an identifier is defined externally",
+                                        "extern"
+                                    ],
+                                    "guid": "px.-b145ZK",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "a floating-point data type",
+                                        "float"
+                                    ],
+                                    "guid": "s/?wD:^Rdk",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "start a for-loop",
+                                        "for"
+                                    ],
+                                    "guid": "J4w*%!R)=z",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Jump to a label",
+                                        "goto"
+                                    ],
+                                    "guid": "pRR-qS4hIY",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "starts an if-statement",
+                                        "if"
+                                    ],
+                                    "guid": "hvxg{NMp%9",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "an integer data type",
+                                        "int"
+                                    ],
+                                    "guid": "KpT}]G2dQK",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "a long integer data type",
+                                        "long"
+                                    ],
+                                    "guid": "C.<2&U?{tO",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "declare a variable be stored in a CPU register",
+                                        "register"
+                                    ],
+                                    "guid": "GLV/hFc&*W",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Return from a function",
+                                        "return"
+                                    ],
+                                    "guid": "q<dizEIR99",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "a short integer data type",
+                                        "short"
+                                    ],
+                                    "guid": "y9ke~;V,]|",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "a signed modifier for integer data types",
+                                        "signed"
+                                    ],
+                                    "guid": "d*_|Jm>C3D",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "determine the size of data",
+                                        "sizeof"
+                                    ],
+                                    "guid": "Ll~nq`w3*3",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "preserve variable value after its scope exits",
+                                        "static"
+                                    ],
+                                    "guid": "H%IwU0T<.w",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "combine variables into a single record",
+                                        "struct"
+                                    ],
+                                    "guid": "OfI{b|qzLo",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "start a switch-statement",
+                                        "switch"
+                                    ],
+                                    "guid": "xuo!s|h&$]",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Create a new type",
+                                        "typedef"
+                                    ],
+                                    "guid": "jF_;Gmxy]T",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "start a union statement",
+                                        "union"
+                                    ],
+                                    "guid": "jnE>I5?y-[",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "an unsigned modifier for integer data types",
+                                        "unsigned"
+                                    ],
+                                    "guid": "n/T`@l)w,X",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "declare a data type empty",
+                                        "void"
+                                    ],
+                                    "guid": "GlP<0nz)9,",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "declare a variable might be modified elsewhere",
+                                        "volitile"
+                                    ],
+                                    "guid": "wv^rG8GZ?r",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "start a while-loop",
+                                        "while"
+                                    ],
+                                    "guid": "sP:$|2X*77",
+                                    "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is a keyword?",
+                                        "Keywords are identifiers that reseserved as keyword and may not be used otherwise"
+                                    ],
+                                    "guid": "yjU<-h|I-E",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the <i><font color=\"#f57900\">auto</font></i> keyword used for?",
+                                        "The&nbsp;<i><font color=\"#f57900\">auto</font></i>&nbsp;keyword declares automatic variables"
+                                    ],
+                                    "guid": "ns~5T:I[(o",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is another name for a local variable?",
+                                        "An automatic variable"
+                                    ],
+                                    "guid": "jWfLE02^,p",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "To which storage class does a local variable belong to?",
+                                        "auto"
+                                    ],
+                                    "guid": "EwxbLI]^al",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<i><font color=\"#cc0000\">break</font></i>&nbsp;keyword used for?",
+                                        "It terminates the innermost loop or switch statement when it's encountered"
+                                    ],
+                                    "guid": "CW4ivYo4^{",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<i><font color=\"#cc0000\">switch</font></i>&nbsp;keyword used for?",
+                                        "It allows us to execute one code block among many alternatives"
+                                    ],
+                                    "guid": "J,q]phQuiC",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<i><font color=\"#cc0000\">default</font></i>&nbsp;keyword used for?",
+                                        "It's the 'default' label of a <font color=\"#cc0000\">switch</font> statement"
+                                    ],
+                                    "guid": "cV!{Ost>N",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<i><font color=\"#cc0000\">case</font></i>&nbsp;keyword used for?",
+                                        "It's a label in a <font color=\"#cc0000\">switch</font> statement"
+                                    ],
+                                    "guid": "b4MMbfMo#F",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The expression of a&nbsp;<i><font color=\"#cc0000\">switch</font>&nbsp;statement is&nbsp;</i>{{c1::compared with the values of each <font color=\"#cc0000\">case</font> label}}<i>. </i>If there is a match, {{c2::the corresponding statements are executed until a <i><font color=\"#cc0000\">break</font> statement</i> is encountered}}. {{c3::The&nbsp;<i><font color=\"#cc0000\">default</font>&nbsp;clause</i> inside the&nbsp;switch&nbsp;statement is optional}}."
+                                    ],
+                                    "guid": "QXsz0FY=jZ",
+                                    "note_model_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<i><font color=\"#f57900\">char</font></i>&nbsp;keyword used for?",
+                                        "It declares a chracter variable"
+                                    ],
+                                    "guid": "QWfo+nZU!S",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<i><font color=\"#f57900\">const</font></i>&nbsp;keyword used for?",
+                                        "To specify the storage class of a identifier to constant"
+                                    ],
+                                    "guid": "A$[4eM1V|]",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What are the&nbsp;<i><font color=\"#f57900\">do..while</font></i>&nbsp;keyword used for?",
+                                        "They executes the body of a <font color=\"#f57900\">while</font> loop before evaluating its test expression"
+                                    ],
+                                    "guid": "HHPf.D8R2P",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What are the&nbsp;<i><font color=\"#f57900\">double, float</font></i>&nbsp;keywords used for?",
+                                        "They are used to declare floating type variables, where a double has double precision"
+                                    ],
+                                    "guid": "Jqxb_;Xsml",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What are the&nbsp;<i><font color=\"#f57900\">if else &amp; else if</font></i>&nbsp;keywords used for?",
+                                        "They are used to make decisions"
+                                    ],
+                                    "guid": "q`>e.7CZsi",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<i><font color=\"#f57900\">enum</font></i>&nbsp;keyword used for?",
+                                        "To define <b>an enumeration</b> that consists of <b>integral constants</b>"
+                                    ],
+                                    "guid": "bYUR&TJ,Sa",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What are the&nbsp;<i><font color=\"#f57900\">extern</font></i>&nbsp;keyword used for?",
+                                        "It declares that a function or variable has external linkage outside of the source file it is declared"
+                                    ],
+                                    "guid": "Gxq$wNbS91",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the <i style=\"\"><font color=\"#cc0000\">for</font></i>&nbsp;keyword used for?",
+                                        "It is used to creat a loop that is typically used for indexing"
+                                    ],
+                                    "guid": "llnpAB:kkh",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What are the&nbsp;<i><font color=\"#cc0000\">goto</font></i>&nbsp;keyword used for?",
+                                        "It is used to transfer control of the program to a specified label"
+                                    ],
+                                    "guid": "w!U,e`8ilX",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What are the&nbsp;<i><font color=\"#f57900\">int</font></i>&nbsp;keyword used for?",
+                                        "It is used to declare integer type variables&nbsp;"
+                                    ],
+                                    "guid": "u(1]y|[3TG",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What are the&nbsp;<i><font color=\"#f57900\">short</font><font color=\"#cc0000\">,</font><font color=\"#f57900\"> long, signed and unsigned</font></i>&nbsp;keywords used for?",
+                                        "They are types modifiers that alter the meaning of a base data type to yield a new type"
+                                    ],
+                                    "guid": "Mj`G8J4ev}",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the <font color=\"#cc0000\">return</font> keyword used for?",
+                                        "It terminates it's <b>function</b> and returns a specified <b>value</b>"
+                                    ],
+                                    "guid": "nL+l_7:D29",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<font color=\"#ad7fa8\">sizeof</font><font color=\"#75507b\">&nbsp;</font>keyword used for?",
+                                        "It evaluates the size of data e.g. a variable or a constant"
+                                    ],
+                                    "guid": "pyZ$f3esgj",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<font color=\"#f57900\">register</font>&nbsp;keyword used for?",
+                                        "It can <b>declare</b> on an <b>object</b> to be stored in the <b>fast registers</b> of the machine"
+                                    ],
+                                    "guid": "l@g=DK6%cn",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The&nbsp;<font color=\"#f57900\">static</font>&nbsp;keyword is used {{c3::to create a static variable that persists until the end of the program.}} It makes {{c2::a function private to its source file.}} It can also {{c1::specify the minimum size of an array parameter.}}"
+                                    ],
+                                    "guid": "d_Qz|N~r}8",
+                                    "note_model_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the <font color=\"#f57900\">struct</font> keyword used for?",
+                                        "It is used for defining a structure that holds variables of different data types under a single name"
+                                    ],
+                                    "guid": "nPDy>4,~G3",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the <font color=\"#f57900\">typedef</font> keyword used for?",
+                                        "It is used to explicitely associate a type with an identifier"
+                                    ],
+                                    "guid": "pN]YVJhwcE",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the difference between a union and a struct?",
+                                        "An instance of a struct allocates memory for all its elements. A union only allocates the maximum size of one of its elements."
+                                    ],
+                                    "guid": "xA,7aQc*.P",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<font color=\"#f57900\">union</font>&nbsp;keyword used for?",
+                                        "It is used for grouping different types of variables under a single name"
+                                    ],
+                                    "guid": "p58_.p}B7~",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<font color=\"#f57900\">void</font>&nbsp;keyword used for?",
+                                        "It is used to describe nothing or no value"
+                                    ],
+                                    "guid": "D-:ZQAu|qB",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the&nbsp;<font color=\"#f57900\">volatile</font>&nbsp;keyword used for?",
+                                        "It is used to tell the compiler that a variable might change so it shouldn't optimise it away"
+                                    ],
+                                    "guid": "A.8+h.K0(Y",
+                                    "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "5d26c785-dac2-11ec-a654-15eef9c747ff",
+                            "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "9353ab8f7c2b4e3294314c3e3e3543dc-oa-1-A.svg",
+                                "9353ab8f7c2b4e3294314c3e3e3543dc-oa-1-Q.svg",
+                                "9353ab8f7c2b4e3294314c3e3e3543dc-oa-2-A.svg",
+                                "9353ab8f7c2b4e3294314c3e3e3543dc-oa-2-Q.svg",
+                                "9353ab8f7c2b4e3294314c3e3e3543dc-oa-3-A.svg",
+                                "9353ab8f7c2b4e3294314c3e3e3543dc-oa-3-Q.svg",
+                                "9353ab8f7c2b4e3294314c3e3e3543dc-oa-4-A.svg",
+                                "9353ab8f7c2b4e3294314c3e3e3543dc-oa-4-Q.svg",
+                                "9353ab8f7c2b4e3294314c3e3e3543dc-oa-5-A.svg",
+                                "9353ab8f7c2b4e3294314c3e3e3543dc-oa-5-Q.svg",
+                                "9353ab8f7c2b4e3294314c3e3e3543dc-oa-O.svg",
+                                "tmp6xyvyp__.png"
+                            ],
+                            "name": "05 Constants",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "9353ab8f7c2b4e3294314c3e3e3543dc-oa-1",
+                                        "",
+                                        "<img src=\"tmp6xyvyp__.png\" />",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-1-Q.svg\" />",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-1-A.svg\" />",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-O.svg\" />"
+                                    ],
+                                    "guid": "O:{7$]Y5:_",
+                                    "note_model_uuid": "5d26c789-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "9353ab8f7c2b4e3294314c3e3e3543dc-oa-2",
+                                        "",
+                                        "<img src=\"tmp6xyvyp__.png\" />",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-2-Q.svg\" />",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-2-A.svg\" />",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-O.svg\" />"
+                                    ],
+                                    "guid": "f4;it#23Ym",
+                                    "note_model_uuid": "5d26c789-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "9353ab8f7c2b4e3294314c3e3e3543dc-oa-3",
+                                        "",
+                                        "<img src=\"tmp6xyvyp__.png\" />",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-3-Q.svg\" />",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-3-A.svg\" />",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-O.svg\" />"
+                                    ],
+                                    "guid": "FWEB6z5=5O",
+                                    "note_model_uuid": "5d26c789-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "9353ab8f7c2b4e3294314c3e3e3543dc-oa-4",
+                                        "",
+                                        "<img src=\"tmp6xyvyp__.png\" />",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-4-Q.svg\" />",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-4-A.svg\" />",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-O.svg\" />"
+                                    ],
+                                    "guid": "qKvVJ3L%9@",
+                                    "note_model_uuid": "5d26c789-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "9353ab8f7c2b4e3294314c3e3e3543dc-oa-5",
+                                        "",
+                                        "<img src=\"tmp6xyvyp__.png\" />",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-5-Q.svg\" />",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-5-A.svg\" />",
+                                        "<img src=\"9353ab8f7c2b4e3294314c3e3e3543dc-oa-O.svg\" />"
+                                    ],
+                                    "guid": "P:5aRA~g5t",
+                                    "note_model_uuid": "5d26c789-dac2-11ec-a654-15eef9c747ff",
+                                    "tags": []
+                                }
+                            ]
+                        }
+                    ],
+                    "crowdanki_uuid": "5d26c68a-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "02 Lexical Conventions",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is a Lexical Convention?",
+                                "A lexical convention is way to describe the different building blocks of a language"
+                            ],
+                            "guid": "oRJUvh`0PC",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is a translation unit?",
+                                "Is a preprocessing translation unit after preprocessing"
+                            ],
+                            "guid": "mBdvM-I(%;",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is a different name for source files?",
+                                "Preprocessing files"
+                            ],
+                            "guid": "E#|{hGHzTA",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "{{c1::A source file aka translation file}}&nbsp;together&nbsp;with&nbsp;{{c2::all the headers and source files included&nbsp;via the preprocessing directive&nbsp;#include}}&nbsp;is known as&nbsp;{{c3::a preprocessing translation unit}}."
+                            ],
+                            "guid": "dEM)xJj;j<",
+                            "note_model_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c798-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "03 Syntax Notation",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c79c-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "04 Meaning of Identifiers",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7a0-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "05 Objects and Lvalues",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7a4-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "06 Conversions",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7a8-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "07 Expressions",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7ac-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "08 Declarations",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7b0-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "09 Statements",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7b4-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "10 External Declarations",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7b8-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "11 Scope and Linkage",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7bc-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "12 Preprocessing",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7c0-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "13 Grammar",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is a production rule?",
+                                "it is used to describe the formal grammar of a language"
+                            ],
+                            "guid": "B3,Ug7DyxG",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is a nonterminal Symbol?",
+                                "A placeholder that does not appear in the final string"
+                            ],
+                            "guid": "Q~oWCul7N1",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is a start symbol?",
+                                "It is a character that starts a production rule"
+                            ],
+                            "guid": "LG7[@VEq!?",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is an undifined terminal symbol?",
+                                "It suggests that it hasn't been defined in the formal grammer&nbsp;"
+                            ],
+                            "guid": "uX@)m*>U/g",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What does the subscript <sub>opt </sub>mean?",
+                                "It is used in a production rule to give optional combination set of rules"
+                            ],
+                            "guid": "cJ|;ICE))7",
+                            "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
+            "crowdanki_uuid": "5d26c673-dac2-11ec-a654-15eef9c747ff",
+            "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Appendix A - Reference Manual",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7d7-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "01 Input and Output: stdio.h",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7db-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "02 Character Class Tests: ctype.h",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7df-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "03 String Functions: string.h",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7e3-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "04 Mathematical Functions: math.h",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7e7-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "05 Utility Functions: stdlib.h",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7eb-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "06 Diagnostics: assert.h",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7ef-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "07 Variable Argument Lists: stdarg.h",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7f3-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "08 Non-local Jumps: setjmp.h",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7f7-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "09 Signals: signal.h",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7fb-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "10 Date and Time Functions: time.h",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c7ff-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "11 Implementation-defined Limits: limits.h and float.h",
+                    "notes": []
+                }
+            ],
+            "crowdanki_uuid": "5d26c7d3-dac2-11ec-a654-15eef9c747ff",
+            "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Appendix B - Standard Library",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c807-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "1 - A Tutorial Introduction",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c80b-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "2 - Types, Operators and Expressions",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c80f-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "3 - Control Flow",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c813-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "4 - Functions and Program Structure",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c817-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "5 - Pointers and Arrays",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c81b-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "6 - Structures",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c81f-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "7 - Input and Output",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "5d26c823-dac2-11ec-a654-15eef9c747ff",
+                    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "8 - The UNIX System Interface",
+                    "notes": []
+                }
+            ],
+            "crowdanki_uuid": "5d26c803-dac2-11ec-a654-15eef9c747ff",
+            "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Chapters",
+            "notes": []
+        }
+    ],
+    "crowdanki_uuid": "5d26c666-dac2-11ec-a654-15eef9c747ff",
+    "deck_config_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "5d26c824-dac2-11ec-a654-15eef9c747ff",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "The C Programming Language",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-6f393",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": 1492735452035,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "5d26c6ae-dac2-11ec-a654-15eef9c747ff",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (type in the answer)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{Front}}\n\n<hr id=answer>\n\n{{type:Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n\n{{type:Back}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "5d26c789-dac2-11ec-a654-15eef9c747ff",
+            "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "ID (hidden)",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Header",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Image",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Question Mask",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Footer",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Remarks",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Sources",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Extra 1",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Extra 2",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Answer Mask",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Original Mask",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Image Occlusion Enhanced",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tmpls": [
+                {
+                    "afmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "IO Card",
+                    "ord": 0,
+                    "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "A C program consists of {{c1::one or more translation units stored in files}}"
+            ],
+            "guid": "zi;;J3PyCG",
+            "note_model_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A program is translated in several phases: {{c1::the first phases perform low-level lexical transformations}}, {{c2::carry out directives introduced by lines beginning with the # character}} and {{c3::perform macro definition and expansion}}."
+            ],
+            "guid": "G@bap>=~nz",
+            "note_model_uuid": "5d26c66a-dac2-11ec-a654-15eef9c747ff",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a direct result of <b>clean code?</b>",
+                "It can be understood easily"
+            ],
+            "guid": "%t=3aDqh5",
+            "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
+            "tags": []
+        }
+    ]
+}
