@@ -44,7 +44,7 @@ The tips for contributing to this project:
 2. Clone the repository:
 
     ```
-    git clone https://github.com/Stvad/DeckX.git
+    git clone git@github.com:saladuit/The-C-Programming-Language-Flahscards.git
     ```
 
 3. [Import the deck](#import).
