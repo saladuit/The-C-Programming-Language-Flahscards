@@ -11,7 +11,7 @@ This is an open source project to make the definitive flashcard standard of the 
 ![Deck Structure](https://github.com/saladuit/The-C-Programming-Language-Flahscards/blob/4c5ce6a0c36b704136a746f5a0843d74aff89c36/media/deck_structure.png "deck_structure")
 
 ##### Add-on [CrowdAnki](https://desktop.github.com/)
-  - Check his project page to find the CUI intructions
+  - Check his project page to find the GUI intructions - Github Desktop
  
 ### CLI workflow
 
