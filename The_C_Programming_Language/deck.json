@@ -232,8 +232,8 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "give a local variable a local lifetime",
-                                        "auto"
+                                        "How do you create a <b>local</b> variable?",
+                                        "A variable is by default local as it has a automatic storage duration. You could however further specify that by assigning the auto keyword to it."
                                     ],
                                     "guid": "h>Yc`>$yW#",
                                     "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
@@ -242,8 +242,8 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "Exit out of a compound statement",
-                                        "break"
+                                        "How do you exit out of a <b>compound</b> statement, a <b>loop</b> or a <b>switch </b>statement?",
+                                        "By using the <font color=\"#f57900\">break</font> keyword"
                                     ],
                                     "guid": "lyPtI*c&@i",
                                     "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
@@ -252,8 +252,8 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "a branch in a switch statement",
-                                        "case"
+                                        "What is the keyword to create a <b>label</b> in a <font color=\"#cc0000\">switch</font> statement?",
+                                        "The&nbsp;<font color=\"#cc0000\">case </font>keyword"
                                     ],
                                     "guid": "Ca0mIZ!xou",
                                     "note_model_uuid": "5d26c670-dac2-11ec-a654-15eef9c747ff",
@@ -652,7 +652,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "What is the&nbsp;<i><font color=\"#f57900\">const</font></i>&nbsp;keyword used for?",
-                                        "To specify the storage class of a identifier to constant"
+                                        "The const keyword can be applied to any type qualifier and the resulting identifier will be placed in read only memory"
                                     ],
                                     "guid": "A$[4eM1V|]",
                                     "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
@@ -662,7 +662,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "What are the&nbsp;<i><font color=\"#f57900\">do..while</font></i>&nbsp;keyword used for?",
-                                        "They executes the body of a <font color=\"#f57900\">while</font> loop before evaluating its test expression"
+                                        "They executes the body of a <font color=\"#f57900\">while</font> loop before evaluating its <b>test expression</b>"
                                     ],
                                     "guid": "HHPf.D8R2P",
                                     "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
@@ -672,7 +672,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "What are the&nbsp;<i><font color=\"#f57900\">double, float</font></i>&nbsp;keywords used for?",
-                                        "They are used to declare floating type variables, where a double has double precision"
+                                        "They are used to declare <b>single-precision</b> or <b>double precision</b> floating point variables"
                                     ],
                                     "guid": "Jqxb_;Xsml",
                                     "note_model_uuid": "5d26c67b-dac2-11ec-a654-15eef9c747ff",
