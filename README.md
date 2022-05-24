@@ -4,12 +4,17 @@
 This is an open source project to make the definitive flashcard standard of the book: The C Programming Language. To achieve this I need your help to make it as simple, educational and accurate as possible. Tips for contributing to this project:
   - try to make the cards as simple as possible so that it is easy to remember e.g. by using cloze cards or by using the Immage Occlusion addon
   - Cards should be made in their approiate deck. e.g. a flashcard with keywords as theme could be placed in Appendix A - Reference Manual Deck -> 02 Lexical Tokens Deck-> 04 Keywords Deck
+  - If you want to add a new card, try to find if the card already exists by using the browse function of Anki
   - Have fun learning the cards and contributing to the knowledge of others
   - More TBA
+
 
 ## Deck Structure
 ![Deck Structure](https://github.com/saladuit/The-C-Programming-Language-Flahscards/blob/4c5ce6a0c36b704136a746f5a0843d74aff89c36/media/deck_structure.png "deck_structure")
 
+## To do
+- make color coding for the deck
+- 
 ### Add-on [CrowdAnki](https://desktop.github.com/)
   - Check his project page to find the GUI intructions - Github Desktop
 
